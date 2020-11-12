@@ -1,0 +1,64 @@
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/container.css");
+@import url("components/button.css");
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+</style>
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+	background: #f7f1e3;
+	color: #343F3E;
+	letter-spacing: 1px;
+	line-height: 30px;
+	text-align: center;
+}
+
+h1, h2, h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	text-align: center;
+
+}
+
+p {
+	font-family:'Raleway', sans-serif;
+	font-weight: lighter;
+	text-align: center;
+
+}
+
+a {
+	text-decoration: none;
+	text-align: center;
+
+}
+
+a:hover {
+	color: #DA8673;
+	text-align: center;
+
+}
+
+
+ul {
+	font-family:'Raleway', sans-serif;
+	font-weight:lighter;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left:0px;
+}
+
+.list-inline li {
+	display: list-item;
+	padding: 3px;
+	margin: 8px;
+}
